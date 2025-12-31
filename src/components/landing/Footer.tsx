@@ -35,9 +35,13 @@ const Footer = () => {
                 <span className="text-xs leading-tight opacity-70">Indonesia</span>
               </div>
             </div>
-            <p className="text-sm opacity-70 leading-relaxed">
+            <p className="text-sm opacity-70 leading-relaxed mb-4">
               Partner for Sustainable Business and Environmental Excellence
             </p>
+            <div className="space-y-2 text-sm opacity-70">
+              <p>Jl. Kaliurang No.Km. 5, Karang Wuni, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
+              <p>Telp: 08112653070</p>
+            </div>
           </div>
 
           {/* Layanan */}

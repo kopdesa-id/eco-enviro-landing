@@ -75,7 +75,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telepon</h4>
-                  <p className="text-muted-foreground">+62 812-3456-7890</p>
+                  <p className="text-muted-foreground">08112653070</p>
                 </div>
               </div>
 
@@ -86,7 +86,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Alamat</h4>
                   <p className="text-muted-foreground">
-                    Jakarta, Indonesia
+                    Jl. Kaliurang No.Km. 5, Karang Wuni, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281
                   </p>
                 </div>
               </div>
