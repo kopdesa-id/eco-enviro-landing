@@ -1,14 +1,17 @@
 import { ArrowRight, FileCheck, Shield, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroBackground from "@/assets/hero-background.jpeg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center hero-gradient overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary-foreground rounded-full blur-3xl" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary-foreground rounded-full blur-3xl" />
-      </div>
+    <section className="relative min-h-screen flex items-center overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBackground})` }}
+      />
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-primary/60" />
 
       <div className="container mx-auto px-4 pt-24 pb-16 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
