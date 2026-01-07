@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "6281234567890"; // Ganti dengan nomor WhatsApp yang sesuai
+const WHATSAPP_NUMBER = "6282226599155"; // Ganti dengan nomor WhatsApp yang sesuai
 const WHATSAPP_MESSAGE = "Halo Eco Enviro Indonesia, saya ingin berkonsultasi mengenai layanan jasa lingkungan.";
 
 const WhatsAppButton = () => {
