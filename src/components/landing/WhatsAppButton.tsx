@@ -1,7 +1,19 @@
 import { MessageCircle } from "lucide-react";
 
 const WHATSAPP_NUMBER = "6282226599155"; // Ganti dengan nomor WhatsApp yang sesuai
-const WHATSAPP_MESSAGE = "Halo Eco Enviro Indonesia, saya ingin berkonsultasi mengenai layanan jasa lingkungan.";
+const WHATSAPP_MESSAGE = `Halo,
+Saya dari sektor industri dan saat ini sedang menyiapkan / mengevaluasi PBG dan SLF.
+
+Kami ingin memastikan prosesnya tetap sejalan dengan regulasi yang terus berkembang,
+terutama terkait kepatuhan, audit, dan keberlanjutan operasional.
+
+Saat ini tantangan kami bukan di teknis bangunan,
+tapi di menjaga langkah tetap aman dan rapi secara regulasi.
+
+Kami membutuhkan pendampingan untuk mengawal prosesnya,
+agar tidak menghambat aktivitas utama perusahaan.
+
+Apakah kami bisa berdiskusi lebih lanjut?`;
 
 const WhatsAppButton = () => {
   const handleClick = () => {
@@ -16,12 +28,12 @@ const WhatsAppButton = () => {
       aria-label="Hubungi via WhatsApp"
     >
       <MessageCircle className="w-7 h-7" />
-      
+
       {/* Tooltip */}
       <span className="absolute right-full mr-3 px-3 py-2 bg-foreground text-background text-sm rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
         Chat via WhatsApp
       </span>
-      
+
       {/* Pulse animation */}
       <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-20" />
     </button>
