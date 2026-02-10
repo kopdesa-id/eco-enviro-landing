@@ -12,6 +12,7 @@ const services = [
       "Dokumen Perencanaan Lingkungan",
       "Persetujuan Teknis (Pertek)",
       "Dokumen pendukung perizinan",
+      "Penyusunan & Sertifikasi PBG dan SLF",
     ],
   },
   {
