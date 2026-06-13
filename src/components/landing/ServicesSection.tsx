@@ -24,6 +24,7 @@ const services = [
       "Program Community Development",
       "Pendampingan komitmen lingkungan",
       "Monitoring dan evaluasi kinerja",
+      "Instalasi Pengolahan Air Limbah",
     ],
   },
   {
